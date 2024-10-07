@@ -262,12 +262,10 @@ p {
   z-index: -1;
 }
 @media screen and (max-width: 768px) {
-  /* Styles for phone screens here */
-  .container {
-    width: 90%; /* Adjust width for mobile */
-  }
-  .text {
-    font-size: 16px; /* Adjust font size for readability */
+  #hero {
+    background-image: url(MobileView.jpg); /* Updated image path without spaces */
+    background-size: cover;
+    background-position: center;
   }
 }
 #hero .hero {
@@ -557,7 +555,7 @@ p {
   font-size: 2rem;
 }
 
- #about1 .col-left .about-img {
+#about1 .col-left .about-img {
   height: 5in;
   width: 10in;
   position: relative;
