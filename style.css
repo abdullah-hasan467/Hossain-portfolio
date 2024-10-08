@@ -598,7 +598,8 @@ p {
   height: 100%;
   width: 100%;
   position: relative;
-  border: 10px solid rgb(10, 10, 10);
+  border: 10px solid rgb(63, 85, 13);
+  box-shadow: 10px 10px 20px rgb(26, 180, 12);
 }
 #about .col-left .about-img::after {
   content: "";
@@ -789,7 +790,7 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid crimson;
+    border: 10px solid rgb(73, 64, 66);
   }
   #about .col-right {
     text-align: left;
